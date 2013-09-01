@@ -1,4 +1,5 @@
 //High Charts Test
+// by DC
 
 $(function () {
 
