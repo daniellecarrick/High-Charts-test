@@ -1,3 +1,5 @@
+//High Charts Test
+
 $(function () {
 
 	var yearConverter = function(x){
