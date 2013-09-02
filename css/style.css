@@ -1,9 +1,8 @@
 
 /*colors. red #e52423, yellow: f6a738, orange ed5728, 0082be;*/
 
-.highcharts-tooltip {
-	color:blue;
-	background-color: red;	
+.highcharts-tooltip p {
+	width: 400px;
 }
 
 body {

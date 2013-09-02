@@ -10,7 +10,7 @@ $(function () {
 
 	var events = {
 		1974 : {
-			content : '<p>Hey there snoogs!</p>'
+			content : '<p>Despite recent success in the environmental awareness arena including the formation of the EPA, landmark legislation, and the very first Earth Day (April 20, 1970), concern for the environment still remains at relatively low levels.  Still an environmental issue is dominating the eco-consciousness of Americans as a result of the oil embargo, as 46% say fuel and energy shortages is one of their top concerns.  Americans gain an affinity to smaller, more fuel-efficient cars from overseas.  It is a trend that replays itself several times over the next 4 decades as Americans are quick to react to rising fuel prices – See 1980-81, 2006, and 2008.</p>'
 		},
 		1975 : {
 			content : '<img src="http://placehold.it/350x450" width=350><p>Hey there. This is caption for my awesome pic</p>'
