@@ -1,5 +1,3 @@
-
-
 #header {
 	width: 100%;
 	position: fixed;
@@ -28,6 +26,7 @@ body {
 	height:200px;
 	background-image: url("../img/header-graphic.png"); 
 	background-repeat: repeat-x;
+	background-color: #0b1112;
 }
 
 .highcharts-tooltip p {
@@ -37,10 +36,6 @@ body {
 
 .highcharts-tooltip span{
 	white-space: normal !important;
-}
-
-body {
-	background-color: #0b1112;
 }
 
 #container {

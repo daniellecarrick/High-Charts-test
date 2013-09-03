@@ -26,7 +26,7 @@ $(function () {
 		$('#container').highcharts({
 			chart: {
 				width:3000,
-				height:300,
+				height:400,
 				backgroundColor : '#0b1112'
 			},
 
@@ -57,7 +57,12 @@ $(function () {
 				min: 0,
 				max: 80,
 				gridLineWidth: 0,
-				labels: {enabled: false}
+				labels: {enabled: false},
+				plotLines: [{ // mark the weekend
+                color: 'white',
+                width: 2,
+                value: 0,
+            }],
 			},
 
 			tooltip: {
