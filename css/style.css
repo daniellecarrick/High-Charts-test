@@ -3,6 +3,11 @@
 
 .highcharts-tooltip p {
 	width: 400px;
+	word-wrap: break-word;
+}
+
+.highcharts-tooltip span{
+	white-space: normal !important;
 }
 
 body {

@@ -57,7 +57,7 @@ $(function () {
 				min: 0,
 				max: 80,
 				gridLineWidth: 0,
-				labels: {enabled: false},
+				labels: {enabled: false}
 			},
 
 			tooltip: {
@@ -65,14 +65,15 @@ $(function () {
 				borderColor: 'black',
 				borderRadius: 2,
 				borderWidth: 0,
+				width: 400,
 				crosshairs: true,
 				useHTML : true,
 				formatter: function() {
 					if(events[yearConverter(this.x)]){
-						return events[yearConverter(this.x)].content + '<br/><p>year => <b>' + yearConverter(this.x) + '</b><br/>value => <b>' + this.y + '</b><br/>series => <b>' + this.series.name + '</b></p>';
+						return '<p><b>' + yearConverter(this.x) + '</b></br>' + this.series.name + ':' + this.y + '%' + events[yearConverter(this.x)].content;
 					}
 					else {
-						return '<p> year => <b>' + yearConverter(this.x) + '</b><br/>value => <b>' + this.y + '</b><br/>series => <b>' + this.series.name + '</b></p>';
+						return '<p><b>' + yearConverter(this.x) + '</b></br>' + this.series.name + ':' + this.y + '%';
 					}
 				}
 			},
