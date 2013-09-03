@@ -30,11 +30,12 @@ body {
 }
 
 .highcharts-tooltip p {
-	width: 400px;
+	width:400px;
 	word-wrap: break-word;
 }
 
 .highcharts-tooltip span{
+	max-width: 400px;
 	white-space: normal !important;
 }
 
@@ -48,6 +49,17 @@ body {
 	position: fixed;
 	left: 0px;
 	bottom:100px;
+}
+
+#right-button {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 50%;
+	right:0;
+	background-color: red;
+	display: block;
+	z-index: 2;
 }
 
 itemStyle: {

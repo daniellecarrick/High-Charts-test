@@ -4,7 +4,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Trending the World: Environmental Sentiment</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		
 		
 	</head>
 	<body>
@@ -16,7 +17,12 @@
 	<div id = "logo"><img src="img/gfk-logo.png" /> <span id="title"><strong>Trending the World: 40 Years of Roper Reports</strong></span></div>
 </div>
 <div id="top-graphic"> </div>
+<div id="right-button">go right!</div>
 <div id="container" style="min-width: 310px; margin: 200px auto 0 auto;"> </div>
-
+<script>
+			$( "#right-button" ).click(function() {
+		 window.scrollBy(300,0);
+			});
+</script>
 	</body>
 </html>
