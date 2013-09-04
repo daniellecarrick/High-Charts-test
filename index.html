@@ -17,11 +17,15 @@
 	<div id = "logo"><img src="img/gfk-logo.png" /> <span id="title"><strong>Trending the World: 40 Years of Roper Reports</strong></span></div>
 </div>
 <div id="top-graphic"> </div>
-<div id="right-button">go right!</div>
+<div id="right-button" class="arrow">&raquo;</div>
+<div id="left-button" class="arrow">&laquo;</div>
 <div id="container" style="min-width: 310px; margin: 200px auto 0 auto;"> </div>
 <script>
 			$( "#right-button" ).click(function() {
 		 window.scrollBy(300,0);
+			});
+			$( "#left-button" ).click(function() {
+		 window.scrollBy(-300,0);
 			});
 </script>
 	</body>
