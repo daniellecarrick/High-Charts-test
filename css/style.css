@@ -4,7 +4,7 @@
 	top: 0;
 	left: 0;
 	z-index: 100;
-	background: #000;
+	background: #111;
 	padding: 5px 10px;
 	opacity: .9;
 	border-bottom: 1px #8E8581;
@@ -58,6 +58,23 @@ body {
 	left: 0px;
 	bottom:100px;
 }
+/*Style the buttons*/
+
+.arrow {
+	height: 100%;
+	position: fixed;
+	top:45px;
+	vertical-align: middle;
+	background-color: white;
+	opacity:.4;
+	font-size: 50px;
+	color: black;
+	display: block;
+	padding: 0 10px;
+	line-height: 600px;
+	z-index: 100;
+	cursor: pointer;
+}
 
 #right-button {
 	right:0;
@@ -67,16 +84,9 @@ body {
 	left:0;
 }
 
-.arrow {
-	height: 100%;
-	position: fixed;
-	background-color: black;
-	font-size: 50px;
-	color: white;
-	display: block;
-	padding:20px;
-	z-index: 100;
-	cursor: pointer;
+.arrow:hover {
+	color:#007dc3;
+	opacity:.7;
 }
 
 itemStyle: {
@@ -85,7 +95,7 @@ itemStyle: {
    fontSize: '12px'
 }
 
-/*----FONT----*/
+/*----FONTS----*/
 
 @font-face {
 	font-family: 'InsightWebBold';
