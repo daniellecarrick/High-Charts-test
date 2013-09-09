@@ -93,6 +93,7 @@ $(function () {
 					rotation: 270,
 					style: {color: '#fff'}
 				},
+				tickWidth: 0,
 				lineWidth: 0
 			},
 
@@ -102,7 +103,7 @@ $(function () {
 				max: 80,
 				gridLineWidth: 0,
 				labels: {enabled: false},
-				plotLines: [{ // mark the weekend
+				plotLines: [{ 
                 color: 'white',
                 width: 2,
                 value: 0,

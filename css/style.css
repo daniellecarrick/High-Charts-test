@@ -28,6 +28,25 @@ body {
 	background-repeat: repeat-x;
 	background-color: #0b1112;
 }
+#intro {
+
+	position: fixed;
+}
+#intro {
+	height: 2000px;
+	margin: 0 auto;
+	width:100%;
+	background-image: url("../img/cover-image.jpg");
+	background-repeat: no-repeat;
+	background-color: black;
+	z-index: 1000;
+}
+
+.hide {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
 
 ::-moz-selection{
     background-color:Transparent;
@@ -49,7 +68,7 @@ body {
 
 #container {
 	background-color: #0b1112;
-	margin-top: 200px !important;
+	margin: 200px 50px 0 50px !important;
 }
 
 .highcharts-legend {
