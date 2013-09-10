@@ -109,7 +109,20 @@ $(function () {
                 value: 0,
             }],
 			},
-
+			/*plotOptions: {
+                series: {
+                    point: {
+                        events: {
+                            mouseOver: function() {
+                            	$(this.series.chart.xAxis[0].labelGroup.element.childNodes[this.x]).css('fill', 'black');
+                            },
+                            mouseOut: function() {                       
+                                 $(this.series.chart.yAxis[0].labelGroup.element.childNodes[this.x]).css('fill', '#999999');
+                            }
+                        }
+                    }
+                }
+            },*/
 			tooltip: {
 				backgroundColor: '#fff',
 				borderColor: 'black',
@@ -130,14 +143,16 @@ $(function () {
 
 			legend: {
 				borderWidth: 0,
+				layout: 'vertical',
+				align: 'left',
 				itemHiddenStyle: {color: '#fff'},
-				itemStyle: {
-						color: '#fff'                        
-					},
+				itemStyle: {color: '#fff'},
 				itemHoverStyle: {
 					color: '#fff',
 					fontWeight: 'bold'
-					}
+					},
+				floating: true,
+				y: -350
 			},
 			series: [{
 				name: 'Environmental Pollution (US)',
