@@ -85,6 +85,14 @@ $(function () {
 				text: '',
 			   
 			},
+			
+		/*	labels: {
+				formatter: function() {
+					if(events[yearConverter(this.x)].content) {
+						
+					}
+				}
+			},*/
 
 			xAxis: { 
 				type: 'datetime',
