@@ -28,11 +28,10 @@ body {
 	background-repeat: repeat-x;
 	background-color: #0b1112;
 }
-#intro {
 
-	position: fixed;
-}
+
 #intro {
+		position: fixed;
 	height: 2000px;
 	margin: 0 auto;
 	width:100%;
@@ -73,13 +72,6 @@ body {
 	float:left;
 }
 
-#end {
-	width: 500px;
-	display: block;
-	float: right;
-	color: white;
-	background-color: red;
-}
 
 #end {
 	width:600px;
