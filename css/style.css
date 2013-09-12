@@ -26,7 +26,7 @@ body {
 	background-image: url("../img/header-graphic.png"); 
 	background-repeat: repeat-x;
 	background-color: #0b1112;
-	font-family: 'InsightWebRegular';	
+	font-family: 'InsightWebRegular', Arial, Helvetica, sans-serif;	
 }
 
 
