@@ -125,7 +125,7 @@ body {
 .intro-content {
 	margin: 0 auto;
 	height:1000px;
-	margin: 30%
+	margin: 20% 30% 30% 30%;
 }	
 
 .intro-content h1 {
@@ -133,7 +133,10 @@ body {
 	margin: 0;
 	font-size: 80px;
 	font-family: 'InsightDisplayWebLight';
-	
+}
+
+.intro-content p {
+	color: white;
 }
 
 .intro__enter{

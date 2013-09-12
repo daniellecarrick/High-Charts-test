@@ -25,13 +25,13 @@ $(function () {
 			content : '<p>Environmental concerns are at relatively low levels, despite recent successes for green including the formation of the Environmental Protection Agency and the first Earth Day on April 20, 1970. In 1974, the environmental issue dominating Americans’ conscience is fuel and energy shortages – 46% of Americans list this as a top concern – as a result of the oil embargo. This trend replays itself in 1980-81, 2006 and 2008, as fuel prices in the past four decades fluctuate and Americans quickly react.</p>'
 		},
 		1978 : {
-			content : '<p>Love Canal disaster becomes a national media story, but concern for pollution remains steady.</p>'
+			content : '<img src="img/love-canal.jpg" height="101px"><p>Love Canal disaster becomes a national media story, but concern for pollution remains steady.</p>'
 		},
 		1987 : {
 			content : '<p>“Contrary to the expectations of many analysts, attention to environmental issues has not peaked; it is still gathering momentum.  In fact, public attitudes towards a wide variety of environmental issues today point to a steady growth in the power of environmental movements in the coming decades.”  -<i>1987 Roper Public Pulse</i>.</p>'
 		},
 		1989 : {
-			content : '<p><i>Exxon Valdez oil spill pushes concern for the environment to its highest levels ever in the US</i>. Even prior to the Valdez oil spill, 62% said that pollution posed a very serious threat to American society – up sharply from the 44% who thought so in 1984. <i>The recession in the early part of the 1990’s helps to cool off the topic.</i></p>'
+			content : '<img src="img/exxon-valdez.jpg" height="111px"><p><i>Exxon Valdez oil spill pushes concern for the environment to its highest levels ever in the US</i>. Even prior to the Valdez oil spill, 62% said that pollution posed a very serious threat to American society – up sharply from the 44% who thought so in 1984. <i>The recession in the early part of the 1990’s helps to cool off the topic.</i></p>'
 		},
 		1990 : {
 			content : '<p>The birth year for GfK Roper’s Green Gauge, when SC Johnson commissions the first study with Roper entitled <i>“The Environment:  Public Attitudes and Individual Behavior”</i></p>'
@@ -59,7 +59,7 @@ $(function () {
 			content : '<p>A new environmental awakening begins in the US. Many environmental behaviors are back on the rise. Rreen purchasing hits another high in 2008, with 63% report having purchased a product labeled or advertised as environmentally safe at some point. This exuberance is short-lived, though, as the housing market crash  in 2008/2009 refocuses Americans on the economy.</p>'
 		},
 		2006 : {
-			content : '<p>Al Gore’s film An Inconvenient Truth ignites passion – and debate – over global warming.</p>'
+			content : '<img src="img/inconvienent-truth.jpg" height="86px"><p>Al Gore’s film An Inconvenient Truth ignites passion – and debate – over global warming.</p>'
 		},
 		2010 : {
 			content : '<p>Amid the ‘great recession’  consumers increasingly dissatisfied with green product offerings – a period of green fatigue sets in the marketplace in the US &emdash; <a href = "http://adage.com/article/news/consumer-revolt-sprouting-green-friendly-products/146944/">Ad Age Article</a>.</p>'
