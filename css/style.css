@@ -26,19 +26,9 @@ body {
 	background-image: url("../img/header-graphic.png"); 
 	background-repeat: repeat-x;
 	background-color: #0b1112;
+	font-family: 'InsightWebRegular';	
 }
 
-
-#intro {
-	position: fixed;
-	height: 2000px;
-	margin: 0 auto;
-	width:100%;
-	background-image: url("../img/cover-image.jpg");
-	background-repeat: no-repeat;
-	background-color: black;
-	z-index: 1000;
-}
 
 .hide {
    position: absolute !important;
@@ -119,16 +109,33 @@ body {
 	opacity:.7;
 }
 
-.intro{
+.intro-wrapper {
 	padding: 20px 0 0 0;
+	text-align: center;
+	height: 600px;
+	width:1000px;
+	position: absolute;
 }
 
-.intro h1 {
+.intro-content {
+	margin: 200px auto;
+	background-image: url("../img/cover-image.jpg");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.intro-content h1 {
 	color: white;
+	margin: 0;
+	font-size: 80px;
+	font-family: 'InsightDisplayWebLight';
+	
 }
 
 .intro__enter{
 	color: white;
+	cursor: pointer;
 }
 
 .chart-wrapper{
