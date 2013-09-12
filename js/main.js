@@ -85,25 +85,10 @@ $(function () {
 			   '#007dc3', 
 			   ],
 
-<<<<<<< HEAD
 		title: {
 			text: '',
 		   
 		},
-=======
-			title: {
-				text: '',
-			   
-			},
-			
-		/*	labels: {
-				formatter: function() {
-					if(events[yearConverter(this.x)].content) {
-						
-					}
-				}
-			},*/
->>>>>>> e35c5c26dd84f62a97a30aed25e99b4cc7922b7a
 
 		xAxis: { 
 			type: 'datetime',
