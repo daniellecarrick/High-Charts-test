@@ -22,40 +22,44 @@ $(function () {
 	
 	var events = {
 		1974 : {
-			content : '<p>Despite recent success in the environmental awareness arena including the formation of the EPA, landmark legislation, and the very Environmental concerns are at relatively low levels, despite recent successes for green including the formation of the Environmental Protection Agency and the first Earth Day on April 20, 1970. In 1974, the environmental issue dominating Americans’ conscience is fuel and energy shortages – 46% of Americans list this as a top concern – as a result of the oil embargo. This trend replays itself in 1980-81, 2006 and 2008, as fuel prices in the past four decades fluctuate and Americans quickly react.</p>'
+			content : '<p>Environmental concerns are at relatively low levels, despite recent successes for green including the formation of the Environmental Protection Agency and the first Earth Day on April 20, 1970. In 1974, the environmental issue dominating Americans’ conscience is fuel and energy shortages – 46% of Americans list this as a top concern – as a result of the oil embargo. This trend replays itself in 1980-81, 2006 and 2008, as fuel prices in the past four decades fluctuate and Americans quickly react.</p>'
 		},
 		1978 : {
 			content : '<p>Love Canal disaster becomes a national media story, but concern for pollution remains steady.</p>'
 		},
 		1987 : {
-			content : '<p>“Contrary to the expectations of many analysts, attention to environmental issues has not peaked; it is still gathering momentum.  In fact, public attitudes towards a wide variety of environmental issues today point to a steady growth in the power of environmental movements in the coming decades.”  -January 1987 Public Pulse.  This prediction becomes true as concern for pollution rises the next 4 years.</p>'
+			content : '<p>“Contrary to the expectations of many analysts, attention to environmental issues has not peaked; it is still gathering momentum.  In fact, public attitudes towards a wide variety of environmental issues today point to a steady growth in the power of environmental movements in the coming decades.”  -<i>1987 Roper Public Pulse</i>.</p>'
 		},
 		1989 : {
-			content : '<p>Exxon Valdez oil spill pushes concern for the environment to its highest levels ever in the US.  The recession in the early part of the 1990’s helps to cool off the topic. Even prior to the Valdez oil spill, 62% said that pollution posed a very serious threat to American society – up sharply from the 44% who thought so in 1984.</p>'
+			content : '<p><i>Exxon Valdez oil spill pushes concern for the environment to its highest levels ever in the US</i>. Even prior to the Valdez oil spill, 62% said that pollution posed a very serious threat to American society – up sharply from the 44% who thought so in 1984. <i>The recession in the early part of the 1990’s helps to cool off the topic.</i></p>'
 		},
 		1990 : {
-			content : '<p>The birth year for Green Gauge, when SC Johnson commissions the first study entitled “The Environment:  Public Attitudes and Individual Behavior” (perhaps we should hyperlink?)</p>'
+			content : '<p>The birth year for GfK Roper’s Green Gauge, when SC Johnson commissions the first study with Roper entitled <i>“The Environment:  Public Attitudes and Individual Behavior”</i></p>'
 		},
 		1994 : {
-			content : '<p>Roper Public Pulse - “The environmental movement has changed dramatically in the space of about a decade.  Public concern about the environment rose to crises proportions at the end of the 1980s:  About one-quarter of Americans identified the environment as one of their top two or three concerns.  In the 1990s, though, concern settled to a new base line…The delicne partly reflects a shift in focus to other pressing issues, like the past recession, crime, and health care costs.  But environmental concerns also have attenuated because public anxiety is now starting to be addressed through actions by government, businesses, and people themselves…Lower levels of concern do not necessarily mean a lessening of the importance of the issue.  The environment like other “hot” social issues, has a life cycle…And once consumers reach a level of competence enabling them to deal with the problem, it’s not uncommon to see behaviors outpace concerns:  It is at this point that the public begins to internalize an issue.”</p>'
+			content : '<p>“The environmental movement has changed dramatically in the space of about a decade…Lower levels of concern do not necessarily mean a lessening of the importance of the issue.  The environment, like other ‘hot’ social issues, has a life cycle…And once consumers reach a level of competence enabling them to deal with the problem, it’s not uncommon to see behaviors outpace concerns:  It is at this point that the public begins to internalize an issue.” – <i>1994 Roper Public Pulse</i></p>'
 		},
-		1995 : {
-			content : '<p>Even though recession concerns tend to dominate in the US, when people around the world are given the specific choice between protecting the environment and having economic growth, the environment wins by a fairly substantial margin, according to the Roper/INRA global survey.  At the same time, however, only 8% of people around the world believe their country’s environmental situation today is close to or is the best possible.  Each of the world’s major regions believes that on balance the environment should take priority over economic growth with Central Europe (76%) and the former Soviet Union (71%) most pro-environment.  These two regions are also the least likely to give high markets to the current condition of the environment in their countries.  On the other hand more economically developed regions like North America are much more likely to feel positive about the state of the environment  - a trend that persists to present day.</p>'
-		},
-		1998 : {
-			content : '<p>– Increased interest and action on the environment - “A combination of factors is probably responsible:  economic good times, peace, and a declining crime rate may leave people less concerned about personal security, allowing environmental issues to rise.” -Green Gauge Report 2000.  Green purchasing hits a 10 year high in early 2001, as 55% of the American public report having purchased a product labeled or advertised as environmentally safe at some point..  By 2002, however recession, homeland security, and corporate distrust are dominating concerns in the US.</p>'
+
+		2000 : {
+			content : '<p>“A combination of factors is probably responsible (for the increased interests and action with the environment):  economic good times, peace, and a declining crime rate may leave people less concerned about personal security, allowing environmental issues to rise.” -<i>2000 GfK Roper Green Gauge Report</i> </p>'
 		},
 		1999 : {
 			content : '<p>68% Recall seeing labels saying product is environmentally safe or biodegradable (+18 pts from 1990)</p>'
 		},
+		2001 : {
+			content: '<p>Early 2001 – Green purchasing hits a 10 year high, as 55% of the American public report having purchased a product labeled or advertised as environmentally safe at some point.</p>'
+		},
+		2002 : {
+			content: '<p>The recession, homeland security, and corporate distrust are dominating concerns in the US</p>'
+		},
 		2003 : {
-			content : '<p>Despite cooling attitudes towards the environment, hybrid cars and other products that can help save money and save the environment start to capture the attention of Americans.   “Activities and products that are catching the environmentally yet economically conscious consumer’s eye include: energy efficient products, electricity conservation at home, recycling centers and hybrid cars” 68% of Americans are aware of Hybrids (+18 points from 2002) and 30% of those aware are interested in buying (+5 point s from 2002)– Green Gauge US Report 2003.  By 2013, 95% were aware of Gas-Electric Hybrids and 48% would consider purchasing.</p>'
+			content : '<p>Despite cooling attitudes towards the environment, “activities and products that are catching the environmentally yet economically conscious consumer’s eye include: energy efficient products, electricity conservation at home, recycling centers and hybrid cars.” 68% of Americans are aware of hybrids (+18 points from 2002) and 30% of those who are aware of hybrids are interested in buying one (+5 points from 2002)– <i>2003 Roper Green Gauge Report</i></p>'
 		},
 		2005 : {
-			content : '<p>Americans begin to experience an “environmental awakening” Beginning in 2005 many environmental behaviors are back on the rise and green purchasing hits another high in 2008, with 63% report having purchased a product labeled or advertised as environmentally safe at some point.  - this exuberance is short-lived however as the Housing Market crash refocuses Americans squarely on the state of the economy.</p>'
+			content : '<p>A new environmental awakening begins in the US. Many environmental behaviors are back on the rise. Rreen purchasing hits another high in 2008, with 63% report having purchased a product labeled or advertised as environmentally safe at some point. This exuberance is short-lived, though, as the housing market crash  in 2008/2009 refocuses Americans on the economy.</p>'
 		},
 		2006 : {
-			content : '<p>Al Gore’s and inconvenient truth reignites the global warming debate.  Much of the world remains highly concerned about the issue to this day, but skepticism still persists in parts of the Developed world – namely the US and UK.</p>'
+			content : '<p>Al Gore’s film An Inconvenient Truth ignites passion – and debate – over global warming.</p>'
 		},
 		2010 : {
 			content : '<p>Amid the ‘great recession’  consumers increasingly dissatisfied with green product offerings – a period of green fatigue sets in the marketplace in the US &emdash; <a href = "http://adage.com/article/news/consumer-revolt-sprouting-green-friendly-products/146944/">Ad Age Article</a>.</p>'
