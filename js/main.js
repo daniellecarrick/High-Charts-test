@@ -22,7 +22,7 @@ $(function () {
 	
 	var events = {
 		1974 : {
-			content : '<p>Despite recent success in the environmental awareness arena including the formation of the EPA, landmark legislation, and the very first Earth Day (April 20, 1970), concern for the environment still remains at relatively low levels.  Still an environmental issue is dominating the eco-consciousness of Americans as a result of the oil embargo, as 46% say fuel and energy shortages is one of their top concerns.  Americans gain an affinity to smaller, more fuel-efficient cars from overseas.  It is a trend that replays itself several times over the next 4 decades as Americans are quick to react to rising fuel prices – See 1980-81, 2006, and 2008.</p>'
+			content : '<p>Despite recent success in the environmental awareness arena including the formation of the EPA, landmark legislation, and the very Environmental concerns are at relatively low levels, despite recent successes for green including the formation of the Environmental Protection Agency and the first Earth Day on April 20, 1970. In 1974, the environmental issue dominating Americans’ conscience is fuel and energy shortages – 46% of Americans list this as a top concern – as a result of the oil embargo. This trend replays itself in 1980-81, 2006 and 2008, as fuel prices in the past four decades fluctuate and Americans quickly react.</p>'
 		},
 		1978 : {
 			content : '<p>Love Canal disaster becomes a national media story, but concern for pollution remains steady.</p>'
@@ -100,7 +100,7 @@ $(function () {
 			opposite: true,
 			labels: {
 				rotation: 270,
-				style: {color: '#fff'}
+				style: {color: '#C4C4C4'}
 			},
 			tickWidth: 0,
 			lineWidth: 0

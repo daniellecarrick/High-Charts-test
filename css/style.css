@@ -112,18 +112,21 @@ body {
 .intro-wrapper {
 	padding: 20px 0 0 0;
 	text-align: center;
-	height: 600px;
-	width:1000px;
+	height: 1000px;
+	width:100%;
 	position: absolute;
-}
-
-.intro-content {
-	margin: 200px auto;
 	background-image: url("../img/cover-image.jpg");
 	background-repeat:no-repeat;
 	background-position: center;
 	background-size: 100%;
 }
+
+
+.intro-content {
+	margin: 0 auto;
+	height:1000px;
+	margin: 30%
+}	
 
 .intro-content h1 {
 	color: white;
@@ -148,7 +151,7 @@ body {
 }
 
 .active-label{
-	fill: red;
+	fill: white;
 	font-weight: bold;
 }
 
