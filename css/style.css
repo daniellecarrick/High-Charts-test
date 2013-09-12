@@ -71,6 +71,12 @@ body {
 	margin: 200px 50px 0 50px !important;
 }
 
+#end {
+	width:600px;
+	background-color: red;
+	float:right;
+}
+
 .highcharts-legend {
 	background-color: #0b1112;
 	position: fixed;
@@ -93,6 +99,7 @@ body {
 	line-height: 600px;
 	z-index: 100;
 	cursor: pointer;
+	display: none;
 }
 
 #right-button {
@@ -108,7 +115,29 @@ body {
 	opacity:.7;
 }
 
-itemStyle: {
+.intro{
+	padding: 20px 0 0 0;
+}
+
+.intro h1 {
+	color: white;
+}
+
+.intro__enter{
+	color: white;
+}
+
+.chart-wrapper{
+	position: absolute;
+	left: 2000px;
+}
+
+.slide-wrapper{
+	position: relative;
+}
+
+
+.itemStyle: {
    cursor: 'pointer',
    color: '#fff',
    fontSize: '12px'

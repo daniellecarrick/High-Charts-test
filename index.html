@@ -14,20 +14,24 @@
 <script src="js/main.js"></script>
 
 <div id="header"> 
-	<div id = "logo"><img src="img/gfk-logo.png" /> <span id="title"><strong>Trending the World: 40 Years of Roper Reports</strong></span></div>
+	<div id="logo">
+		<img src="img/gfk-logo.png" /> <span id="title"><strong>Trending the World: 40 Years of Roper Reports</strong></span>
+	</div>
 </div>
-<div id="right-button" class="arrow">&raquo;</div>
-<div id="left-button" class="arrow">&laquo;</div>
-<div id="top-graphic"> </div>
-<div id="container"	 </div>
-<!--<div id="intro"></div>-->
-<script>
-			$( "#right-button" ).click(function() {
-		 window.scrollBy(300,0);
-			});
-			$( "#left-button" ).click(function() {
-		 window.scrollBy(-300,0);
-			});
-</script>
+<div class="slide-wrapper">
+	<div class="intro">
+		<h1>Intro slide</h1>
+		<div class="intro__enter js-enter">Click to enter</div>
+	</div>
+
+	<div class="chart-wrapper">
+		<div id="right-button" class="arrow">&raquo;</div>
+		<div id="left-button" class="arrow">&laquo;</div>
+		<div id="top-graphic"> </div>
+		<div id="end">This is the end slide</div>
+		<div id="container">	 </div>
+	</div>
+</div>
+
 	</body>
 </html>
