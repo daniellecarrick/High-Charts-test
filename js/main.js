@@ -75,7 +75,12 @@ $(function () {
 		chart: {
 			width:3000,
 			height:400,
-			backgroundColor : '#0b1112'
+			backgroundColor : '#0b1112',
+			events : {
+				redraw : function(event){
+					redrawLabels(this);
+				}
+			}
 		},
 
 		colors: [
@@ -197,16 +202,19 @@ $(function () {
 			}
 		}]
 	});
-	
-	//add classes to labels with events
-	var chartLabels = $('#container').find('.highcharts-axis-labels').find('tspan');
 
-	chartLabels.each(function(index){
-		var labelText = $(this).text();
-		if(events[labelText]){
-			$(this).addClass('active-label');
-		}
-	});
+	var redrawLabels = function(chart){
+		//add classes to labels with events
+		var chartLabels = $(chart.container).find('.highcharts-axis-labels').find('tspan');
+
+		chartLabels.each(function(index){
+			var labelText = $(this).text();
+			if(events[labelText]){
+				$(this).attr({'class' :'active-label'});
+			}
+		});
+	}
+	
 
 	//slide functionality
 	$(window).on({

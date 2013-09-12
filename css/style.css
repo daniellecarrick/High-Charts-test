@@ -146,6 +146,10 @@ body {
 	position: relative;
 }
 
+.active-label{
+	fill: red;
+	font-weight: bold;
+}
 
 .itemStyle: {
    cursor: 'pointer',
