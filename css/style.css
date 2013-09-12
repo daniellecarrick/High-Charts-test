@@ -23,7 +23,6 @@
 
 body {
 	width:100%;
-
 	background-image: url("../img/header-graphic.png"); 
 	background-repeat: repeat-x;
 	background-color: #0b1112;
@@ -31,7 +30,7 @@ body {
 
 
 #intro {
-		position: fixed;
+	position: fixed;
 	height: 2000px;
 	margin: 0 auto;
 	width:100%;
@@ -72,6 +71,9 @@ body {
 	float:left;
 }
 
+.active-label{
+	font-weight: bold;
+}
 
 #end {
 	width:600px;
