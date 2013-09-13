@@ -14,10 +14,10 @@ $(function () {
 		//}
 	//}
 	$( "#right-button" ).click(function() {
-		$("html,body").animate({scrollLeft : $("html,body").scrollLeft() + 300});
+		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() + 300});
 	});
 	$( "#left-button" ).click(function() {
-		$("html,body").animate({scrollLeft : $("html,body").scrollLeft() -300});
+		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() -300});
 	});
 	
 	var events = {
@@ -95,7 +95,7 @@ $(function () {
 			   ],
 
 		title: {
-			text: '',
+			text: ''
 		   
 		},
 
@@ -117,7 +117,7 @@ $(function () {
 			gridLineWidth: 0,
 			labels: {enabled: false},
 			plotLines: [{ 
-            color: 'white',
+			color: 'white',
             width: 2,
             value: 0
         }],
@@ -176,7 +176,7 @@ $(function () {
 				symbol: 'circle',
 				states: {
 				   hover: {
-					fillColor: '#0b1112',
+					fillColor: '#0b1112'
 				   }
 				}
 			}
@@ -230,7 +230,7 @@ $(function () {
 
 	$('.js-enter').on({
 		click : function(){
-			$("html,body").animate({scrollLeft : $(window).outerWidth(true)}, 500, function(){
+			$('html, body').animate({scrollLeft : $(window).outerWidth(true)}, 500, function(){
 				$('.arrow').fadeIn();
 			});
 		}
