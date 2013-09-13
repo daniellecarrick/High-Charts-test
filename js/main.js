@@ -18,16 +18,16 @@ $(function () {
 	
 	var events = {
 		1974 : {
-			content : '<p>Environmental concerns are at relatively low levels, despite recent successes for green including the formation of the Environmental Protection Agency and the first Earth Day on April 20, 1970. In 1974, the environmental issue dominating Americans’ conscience is fuel and energy shortages – 46% of Americans list this as a top concern – as a result of the oil embargo. This trend replays itself in 1980-81, 2006 and 2008, as fuel prices in the past four decades fluctuate and Americans quickly react.</p>'
+			content : '<img src="img/1974.png" height="138px" style="margin-top:10px"><p>Environmental concerns are at relatively low levels, despite recent successes for green including the formation of the Environmental Protection Agency and the first Earth Day on April 20, 1970. In 1974, the environmental issue dominating Americans’ conscience is fuel and energy shortages – 46% of Americans list this as a top concern – as a result of the oil embargo. This trend replays itself in 1980-81, 2006 and 2008, as fuel prices in the past four decades fluctuate and Americans quickly react.</p>'
 		},
 		1978 : {
-			content : '<img src="img/love-canal.jpg" height="101px"><p>Love Canal disaster becomes a national media story, but concern for pollution remains steady.</p>'
+			content : '<img src="img/love-canal.jpg" height="101px" style="margin-top:10px"><p>Love Canal disaster becomes a national media story, but concern for pollution remains steady.</p>'
 		},
 		1987 : {
 			content : '<p>“Contrary to the expectations of many analysts, attention to environmental issues has not peaked; it is still gathering momentum.  In fact, public attitudes towards a wide variety of environmental issues today point to a steady growth in the power of environmental movements in the coming decades.”  -<i>1987 Roper Public Pulse</i>.</p>'
 		},
 		1989 : {
-			content : '<img src="img/exxon-valdez.jpg" height="111px"><p><i>Exxon Valdez oil spill pushes concern for the environment to its highest levels ever in the US</i>. Even prior to the Valdez oil spill, 62% said that pollution posed a very serious threat to American society – up sharply from the 44% who thought so in 1984. <i>The recession in the early part of the 1990’s helps to cool off the topic.</i></p>'
+			content : '<img src="img/exxon-valdez.jpg" height="111px" style="margin-top:10px"><p><i>Exxon Valdez oil spill pushes concern for the environment to its highest levels ever in the US</i>. Even prior to the Valdez oil spill, 62% said that pollution posed a very serious threat to American society – up sharply from the 44% who thought so in 1984. <i>The recession in the early part of the 1990’s helps to cool off the topic.</i></p>'
 		},
 		1990 : {
 			content : '<p>The birth year for GfK Roper’s Green Gauge, when SC Johnson commissions the first study with Roper entitled <i>“The Environment:  Public Attitudes and Individual Behavior”</i></p>'
@@ -46,19 +46,19 @@ $(function () {
 			content: '<p>Early 2001 – Green purchasing hits a 10 year high, as 55% of the American public report having purchased a product labeled or advertised as environmentally safe at some point.</p>'
 		},
 		2002 : {
-			content: '<p>The recession, homeland security, and corporate distrust are dominating concerns in the US</p>'
+			content: '<img src="img/2002.png" height="119px" style="margin-top:10px"><p>The recession, homeland security, and corporate distrust are dominating concerns in the US</p>'
 		},
 		2003 : {
-			content : '<p>Despite cooling attitudes towards the environment, “activities and products that are catching the environmentally yet economically conscious consumer’s eye include: energy efficient products, electricity conservation at home, recycling centers and hybrid cars.” 68% of Americans are aware of hybrids (+18 points from 2002) and 30% of those who are aware of hybrids are interested in buying one (+5 points from 2002)– <i>2003 Roper Green Gauge Report</i></p>'
+			content : '<img src="img/2003.png" height="156px" style="margin-top:10px"><p>Despite cooling attitudes towards the environment, “activities and products that are catching the environmentally yet economically conscious consumer’s eye include: energy efficient products, electricity conservation at home, recycling centers and hybrid cars.” 68% of Americans are aware of hybrids (+18 points from 2002) and 30% of those who are aware of hybrids are interested in buying one (+5 points from 2002)– <i>2003 Roper Green Gauge Report</i></p>'
 		},
 		2005 : {
 			content : '<p>A new environmental awakening begins in the US. Many environmental behaviors are back on the rise. Rreen purchasing hits another high in 2008, with 63% report having purchased a product labeled or advertised as environmentally safe at some point. This exuberance is short-lived, though, as the housing market crash  in 2008/2009 refocuses Americans on the economy.</p>'
 		},
 		2006 : {
-			content : '<img src="img/inconvienent-truth.jpg" height="86px"><p>Al Gore’s film An Inconvenient Truth ignites passion – and debate – over global warming.</p>'
+			content : '<img src="img/inconvienent-truth.jpg" height="86px" style="margin-top:10px"><p>Al Gore’s film An Inconvenient Truth ignites passion – and debate – over global warming.</p>'
 		},
 		2010 : {
-			content : '<p>Amid the ‘great recession’  consumers increasingly dissatisfied with green product offerings – a period of green fatigue sets in the marketplace in the US &emdash; <a href = "http://adage.com/article/news/consumer-revolt-sprouting-green-friendly-products/146944/">Ad Age Article</a>.</p>'
+			content : '<img src="img/2010.png" height="126px" style="margin-top:10px"><p>Amid the ‘great recession’  consumers increasingly dissatisfied with green product offerings – a period of green fatigue sets in the marketplace in the US &emdash; <a href = "http://adage.com/article/news/consumer-revolt-sprouting-green-friendly-products/146944/">Ad Age Article</a>.</p>'
 		},
 		2011 : {
 			content : '<p>SC Johnson reprises one of the first large scale environmental attitudes and behavior from 1990 with  <a href="http://www.scjohnson.com/en/commitment/focus-on/greengauge.aspx">“The Environment:  Public Attitudes and Individual Behavior — A Twenty-Year Evolution”</a>. Findings reveal that since 1990 environmental behaviors such as recycling and green purchasing have become more mainstream, despite short term dips and the overall fickleness of concern for the environment.</p>'
@@ -74,7 +74,7 @@ $(function () {
 	$('#container').highcharts({
 		chart: {
 			width:3000,
-			height:600,
+			marginRight: 100,
 			backgroundColor : '#0b1112',
 			events : {
 				redraw : function(event){
@@ -82,7 +82,7 @@ $(function () {
 				}
 			}
 		},
-
+		
 		colors: [
 			   '#e52423', 
 			   '#f6a738', 
@@ -100,7 +100,8 @@ $(function () {
 			opposite: true,
 			labels: {
 				rotation: 270,
-				style: {color: '#C4C4C4'}
+				style: {color: '#C4C4C4'},
+				step:1
 			},
 			tickWidth: 0,
 			lineWidth: 0
