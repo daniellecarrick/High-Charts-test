@@ -27,6 +27,7 @@ body {
 	background-repeat: repeat-x;
 	background-color: #0b1112;
 	font-family: 'InsightWebRegular', Arial, Helvetica, sans-serif;	
+	height:600px;
 }
 
 
@@ -119,7 +120,7 @@ body {
 	height: 1000px;
 	width:100%;
 	position: absolute;
-	background-image: url("../img/cover-image.jpg");
+	background-image: url("../img/cover-image.jpeg");
 	background-repeat:no-repeat;
 	background-position: center;
 	background-size: 100%;
