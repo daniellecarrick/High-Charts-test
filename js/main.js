@@ -120,7 +120,7 @@ $(function () {
 			color: 'white',
             width: 2,
             value: 0
-        }],
+        }]
 		},
 		/*plotOptions: {
             series: {
