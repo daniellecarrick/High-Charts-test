@@ -8,13 +8,9 @@ $(function () {
 		return Math.floor((x)/1000/60/60/24/365)+1970;
 	}
 
-	//var yearHighlight = function(){
-		//if(events[yearConverter(this.x)].content.length>0){
-			
-		//}
-	//}
+
 	$( "#right-button" ).click(function() {
-		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() + 300});
+		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() +300});
 	});
 	$( "#left-button" ).click(function() {
 		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() -300});
@@ -78,7 +74,7 @@ $(function () {
 	$('#container').highcharts({
 		chart: {
 			width:3000,
-			height:400,
+			height:600,
 			backgroundColor : '#0b1112',
 			events : {
 				redraw : function(event){
@@ -91,7 +87,7 @@ $(function () {
 			   '#e52423', 
 			   '#f6a738', 
 			   '#B4E038', 
-			   '#007dc3', 
+			   '#007dc3',
 			   ],
 
 		title: {
@@ -122,20 +118,6 @@ $(function () {
             value: 0
         }]
 		},
-		/*plotOptions: {
-            series: {
-                point: {
-                    events: {
-                        mouseOver: function() {
-                        	$(this.series.chart.xAxis[0].labelGroup.element.childNodes[this.x]).css('fill', 'black');
-                        },
-                        mouseOut: function() {                       
-                             $(this.series.chart.yAxis[0].labelGroup.element.childNodes[this.x]).css('fill', '#999999');
-                        }
-                    }
-                }
-            }
-        },*/
 		tooltip: {
 			backgroundColor: '#fff',
 			borderColor: 'black',
@@ -155,17 +137,16 @@ $(function () {
 		},
 
 		legend: {
+			enabled: false,
 			borderWidth: 0,
 			layout: 'vertical',
+			width: 400,
 			align: 'left',
 			itemHiddenStyle: {color: '#fff'},
 			itemStyle: {color: '#fff'},
 			itemHoverStyle: {
-				color: '#fff',
-				fontWeight: 'bold'
-				},
-			floating: true,
-			y: -350
+				color: '#fff'
+				}
 		},
 		series: [{
 			name: 'Environmental Pollution (US)',
@@ -232,7 +213,7 @@ $(function () {
 	$('.js-enter').on({
 		click : function(){
 			$('html, body').animate({scrollLeft : $(window).outerWidth(true)}, 500, function(){
-				$('.arrow').fadeIn();
+				$('.fade').fadeIn();
 			});
 		}
 	});

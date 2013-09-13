@@ -78,8 +78,8 @@ body {
 	left: 0px;
 	bottom:100px;
 }
-/*Style the buttons*/
 
+/*Style the buttons*/
 .arrow {
 	height: 100%;
 	position: fixed;
@@ -96,7 +96,10 @@ body {
 	line-height: 600px;
 	z-index: 100;
 	cursor: pointer;
-	display: none;
+}
+
+.fade {
+	display:none;
 }
 
 #right-button {
@@ -130,7 +133,7 @@ body {
 .intro-content {
 	margin: 0 auto;
 	height:1000px;
-	margin: 20% 30% 30% 30%;
+	margin: 10% 30% 30% 30%;
 }	
 
 .intro-content h1 {
@@ -164,11 +167,12 @@ body {
 	font-weight: bold !important;
 }
 
-.itemStyle: {
-   cursor: 'pointer',
-   color: '#fff',
-   fontSize: '12px'
+#legend {
+	position: fixed;
+	top: 60px;
+	left:50px;
 }
+
 
 /*----FONTS----*/
 
