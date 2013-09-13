@@ -14,10 +14,10 @@ $(function () {
 		//}
 	//}
 	$( "#right-button" ).click(function() {
-		$('body').animate({scrollLeft : $('body').scrollLeft() + 300});
+		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() + 300});
 	});
 	$( "#left-button" ).click(function() {
-		$('body').animate({scrollLeft : $('body').scrollLeft() -300});
+		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() -300});
 	});
 	
 	var events = {
@@ -91,7 +91,7 @@ $(function () {
 			   ],
 
 		title: {
-			text: '',
+			text: ''
 		   
 		},
 
@@ -113,10 +113,10 @@ $(function () {
 			gridLineWidth: 0,
 			labels: {enabled: false},
 			plotLines: [{ 
-            color: 'white',
-            width: 2,
-            value: 0,
-        }],
+	            color: 'white',
+	            width: 2,
+	            value: 0
+        	}]
 		},
 		/*plotOptions: {
             series: {
@@ -172,7 +172,7 @@ $(function () {
 				symbol: 'circle',
 				states: {
 				   hover: {
-					fillColor: '#0b1112',
+					fillColor: '#0b1112'
 				   }
 				}
 			}
@@ -226,7 +226,7 @@ $(function () {
 
 	$('.js-enter').on({
 		click : function(){
-			$('body').animate({scrollLeft : $(window).outerWidth(true)}, 500, function(){
+			$('html, body').animate({scrollLeft : $(window).outerWidth(true)}, 500, function(){
 				$('.arrow').fadeIn();
 			});
 		}
