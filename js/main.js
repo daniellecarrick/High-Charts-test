@@ -117,10 +117,10 @@ $(function () {
 			gridLineWidth: 0,
 			labels: {enabled: false},
 			plotLines: [{ 
-	            color: 'white',
-	            width: 2,
-	            value: 0
-        	}]
+			color: 'white',
+            width: 2,
+            value: 0
+        }],
 		},
 		/*plotOptions: {
             series: {
