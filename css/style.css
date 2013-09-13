@@ -86,6 +86,8 @@ body {
 	vertical-align: middle;
 	background-color: white;
 	opacity:.4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=40);
 	font-size: 50px;
 	color: black;
 	display: block;
@@ -107,6 +109,8 @@ body {
 .arrow:hover {
 	color:#007dc3;
 	opacity:.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
 }
 
 .intro-wrapper {
@@ -154,8 +158,9 @@ body {
 }
 
 .active-label{
-	fill: white;
-	font-weight: bold;
+	color: white !important;
+	fill: white !important;
+	font-weight: bold !important;
 }
 
 .itemStyle: {

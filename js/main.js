@@ -209,12 +209,13 @@ $(function () {
 
 	var redrawLabels = function(chart){
 		//add classes to labels with events
-		var chartLabels = $(chart.container).find('.highcharts-axis-labels').find('tspan');
-
+		var chartLabels = $(chart.container).find('.highcharts-axis-labels').children();
 		chartLabels.each(function(index){
 			var labelText = $(this).text();
+
 			if(events[labelText]){
 				$(this).attr({'class' :'active-label'});
+
 			}
 		});
 	}
