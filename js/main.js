@@ -10,10 +10,10 @@ $(function () {
 
 
 	$( "#right-button" ).click(function() {
-		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() +300});
+		$('html,body').animate({scrollLeft : $(window).scrollLeft() +300});
 	});
 	$( "#left-button" ).click(function() {
-		$('html, body').animate({scrollLeft : $('html, body').scrollLeft() -300});
+		$('html,body').animate({scrollLeft : $(window).scrollLeft() -300});
 	});
 	
 	var events = {
